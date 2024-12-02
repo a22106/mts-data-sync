@@ -20,17 +20,17 @@
   },
   "homepage": "https://github.com/mapbox/mts-data-sync#readme",
   "devDependencies": {
-    "eslint": "^7.2.0",
+    "@mapbox/eslint-config-mapbox": "^2.0.1",
     "babel-eslint": "10.1.0",
+    "eslint": "^7.2.0",
     "eslint-plugin-html": "^6.0.2",
-    "eslint-plugin-xss": "^0.1.10",
-    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-import": "^2.22.0",
-    "@mapbox/eslint-config-mapbox": "^2.0.1"
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-xss": "^0.1.10"
   },
   "dependencies": {
     "@mapbox/geojsonhint": "^3.0.0",
-    "@mapbox/mapbox-sdk": "^0.10.0",
+    "@mapbox/mapbox-sdk": "^0.16.1",
     "@mapbox/tile-cover": "^3.0.2",
     "@mapbox/tilebelt": "^1.0.1",
     "@turf/area": "^6.0.1",
